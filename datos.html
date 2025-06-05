@@ -1,0 +1,42 @@
+<!-- datos.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Datos Personales</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Datos Personales</h2>
+    <form id="datos-form">
+      <input type="text" name="nombre" placeholder="Nombre completo" required>
+      <input type="email" name="correo" placeholder="Correo electrónico" required>
+      <input type="tel" name="telefono" placeholder="Teléfono" required>
+      
+      <h2>Educación</h2>
+      <input type="text" name="grado" placeholder="Grado académico">
+      <input type="text" name="institucion" placeholder="Institución">
+
+      <h2>Habilidades Blandas</h2>
+      <label>Trabajo en equipo:
+        <select name="equipo">
+          <option>Excelente</option>
+          <option>Bueno</option>
+          <option>Regular</option>
+        </select>
+      </label>
+      <label>Resolución de problemas:
+        <select name="resolucion">
+          <option>Excelente</option>
+          <option>Bueno</option>
+          <option>Regular</option>
+        </select>
+      </label>
+
+      <button type="submit">Siguiente</button>
+    </form>
+  </div>
+  <script src="datos.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="stil.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="cv-container">
+      <aside class="sidebar">
+        <div class="foto">
+          <img src="image/clienteO.png" alt="Foto perfil" />
+        </div>
+        <h1 class="nombre">Joshua<br />Cambronero Navarro</h1>
+        <div class="info">
+          <p>📱 85204743</p>
+          <p>📧 joscamnav90@gmail.com</p>
+          <p>📍 San Pablo / Pérez Zeledón</p>
+        </div>
+        <section class="section">
+          <h2>EDUCACIÓN</h2>
+          <p>
+            <strong>Educación General Básica</strong><br />Colegio Técnico
+            Profesional de Platanares
+          </p>
+          <p>
+            <strong>Industrial</strong><br />Colegio Técnico Profesional de
+            Platanares
+          </p>
+          <p>
+            <strong>Bachillerato, Ingeniería en Sistemas</strong
+            ><br />Universidad Nacional
+          </p>
+          <p>
+            <strong>Bachillerato, Derecho</strong><br />Universidad Castro
+            Carazo
+          </p>
+        </section>
+        <section class="section">
+          <h2>OTROS</h2>
+          <p>
+            Trabajos ocasionales en topografía, construcción y agricultura.
+            Licencia B2 y A2.
+          </p>
+          <p>
+            Conocimiento básico de programas de dibujo técnico y presupuesto de
+            obra.
+          </p>
+          <p>Lectura de planos de obra.</p>
+        </section>
+        <section class="section">
+			<h2>Habilidades Blandas</h2>
+			<div class="skills-chart">
+            <canvas id="radarChart" width="200" height="200"></canvas>
+          </div>
+        </section>
+        <script src="chart.js"></script>
+      </aside>
+      <main class="contenido">
+        <section class="perfil">
+          <h2>A C E R C A D E M Í</h2>
+          <p>
+            Me considero una persona esforzada que tiene muchas ganas de
+            aprender y que aprende rápido.
+          </p>
+        </section>
+
+        <section class="experiencia">
+          <h2>E X P E R I E N C I A</h2>
+
+          <article>
+            <h3>
+              Proyecto Última Milla (Asistente de técnico - Práctica
+              Estudiantil)
+            </h3>
+            <p><em>ICE / Planet Santiago Río Claro (2021)</em></p>
+            <ul>
+              <li>
+                Instalación de servicios (modem, herramientas de medición)
+              </li>
+              <li>Configuración de módems</li>
+              <li>Conexión de fibra óptica</li>
+              <li>Diagnóstico de redes</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>
+              Red Educativa del Bicentenario (Técnico 2 en cableado
+              estructurado)
+            </h3>
+            <p><em>BC Network / Zona Sur - Puntarenas (2021-2022)</em></p>
+            <ul>
+              <li>Instalación de cableado estructurado</li>
+              <li>Etiquetado y certificación de redes</li>
+              <li>Montaje de racks, puntos de red, canaletas</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Minisúper La Deportiva (Dependiente)</h3>
+            <p><em>San Carlos (2021)</em></p>
+            <ul>
+              <li>Atención al cliente</li>
+              <li>Venta de productos</li>
+              <li>Manejo de inventario</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Bartec (Técnico en telecomunicaciones)</h3>
+            <p><em>San Isidro (2013-2014)</em></p>
+            <ul>
+              <li>Instalación y mantenimiento</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>El Camionero Pérez Zeledón (Almacenista)</h3>
+            <p><em>San Isidro (2024-2025)</em></p>
+            <ul>
+              <li>Manejo de inventario</li>
+              <li>Entrega y traslado de productos</li>
+            </ul>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+/* estilo.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #1a1a1a;
+}
+
+.cv-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.sidebar {
+  width: 30%;
+  background: #0f2d52;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.skills-chart {
+  text-align: center;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  margin-bottom: 25px;
+
+}
+
+.foto {
+  width: 100%;
+  height: 180px;
+  background: url('foto.jpg') center center / cover no-repeat;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  margin-bottom: 15px;
+}
+
+.foto img {
+  max-height: 100%;
+  width: auto;
+  border-radius: 5px;
+}
+
+.nombre {
+  font-size: 22px;
+  margin: 0 0 10px;
+  line-height: 1.2;
+}
+
+.info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.section {
+  margin-top: 25px;
+}
+
+.section h2 {
+  font-size: 16px;
+  color: #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.section p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.contenido {
+  width: 70%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.perfil h2,
+.experiencia h2 {
+  font-size: 18px;
+  color: #0f2d52;
+  border-bottom: 2px solid #0f2d52;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.perfil p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.experiencia article {
+  margin-bottom: 25px;
+}
+
+.experiencia h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #1a1a1a;
+}
+
+.experiencia p {
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: #444;
+}
+
+.experiencia ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.experiencia li {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
